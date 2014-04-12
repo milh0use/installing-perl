@@ -65,7 +65,7 @@ if [ -d "$CPANMTMP" ]; then
 fi
 
 echo "Installing perlbrew"
-curl -k -L http://xrl.us/perlbrewinstall | bash
+curl -3 -k -L http://xrl.us/perlbrewinstall | bash
 
 # Build as i386 only
 arch=`uname -m`
